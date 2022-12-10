@@ -1,0 +1,39 @@
+div{
+	width: 150px;
+	height: 150px;
+	margin: 20px;
+	float: left;
+}
+
+.satu{
+	border: 10px solid grey;
+	border-radius: 10px;
+}
+
+.dua{
+	border: 10px solid red;
+	border-radius: 60px 0 60px 0;
+}
+
+.tiga{
+	border: 10px solid green;
+	border-radius: 50%;
+}
+
+.empat{
+	height: 70px;
+	border: 10px solid blue;
+	border-radius: 100px 100px 0 0;
+}
+
+.lima{
+	margin-top: 100px;
+	height: 70px;
+	border: 10px solid blue;
+	border-radius: 0 0 100px 100px;
+}
+
+.enam{
+	border: 10px solid orange;
+	border-radius: 0 150px 150px 0;
+}

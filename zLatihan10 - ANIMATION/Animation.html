@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Animation CSS3</title>
+		<style>
+			body{
+				margin: 0;
+				padding: 0;
+			}
+
+			.kotak{
+				width: 200px;
+				height: 200px;
+				background-color: salmon;
+				animation: anime 3s  backwards ;
+
+				/*
+				animation-name: anime; 					Nama dari keyframes(wajib).
+				animation-duration: 3s;					Durasi animasi.
+				animation-timing-function: ease;		Tipe animasi (detail Lihat di Latihan9).
+				animation-delay: 2s;					Waktu tunggu sebelum dimulai.	
+				animation-iteration-count: 2, infinite;	Perulangan animas. (1/2, infinite(terus berulang))
+				animation-direction: reverse;			Jenis animasi:
+														reverse 	  		: animasi diputar terbalik.(dari akhir).
+														alternate 			: dariawal - dariakhir - dariawal.
+														alternate-reverse	: dariakhir- dariawal- dariakhir.
+				animation-fill-mode: forwards;			Keadaan saat animasi berhenti.
+														foward 				: animasi berhenti saat keadaan akhir.
+														backwards			: animasi berhenti saat kedaan awal.
+														both?
+				animation-play-state: running;			running(default) :jalan, Paused : berhenti
+				*/
+
+			}
+			@keyframes anime{
+				0%{
+					width: 200px;
+					height: 200px;
+				}
+
+				50%{
+					width: 400px;
+					height: 200px;
+				}
+
+				100%{
+					width: 400px;
+					height: 400px;
+				}
+			}
+
+			/*
+			<properti>
+			<time>
+			<fungsi>
+			<delay>*/
+		</style>
+</head>
+<body>
+	<div class="kotak"></div>
+</body>
+</html>
